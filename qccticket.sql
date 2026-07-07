@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 08, 2026 at 12:30 AM
+-- Generation Time: Jul 08, 2026 at 01:46 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -205,7 +205,10 @@ INSERT INTO `utilizadores` (`id`, `nome`, `email`, `username`, `password_hash`, 
 (2, 'Carlos Vissesse', 'carlos.vissesse@quality.co.ao', 'carlos.vissesse', '$2y$10$TKh8H1.PfQx37YgCzwiKb.KjNyWgaHb9cbcoQgdIVFlYg7B77UdFm', 'Responsavel', 2, NULL, 'Ativo', NULL, '2026-07-02 22:02:14'),
 (6, 'Manuel Comum', NULL, 'manuel.comum', '$2y$10$oboZKwExed8oj9rONHZSueWctKxftMdUJfjSymR.QD7KKXc5NsnNu', '', 2, NULL, 'Ativo', NULL, '2026-07-07 20:03:14'),
 (7, 'João Geraldo', NULL, 'joao.geraldo', '$2y$10$zxBFssL4jmv8tMYRSLL0d.mbbU6wKBRaOUF1pqtOQiE.P9p5V/d6C', 'Tecnico', 1, NULL, 'Ativo', NULL, '2026-07-07 21:17:12'),
-(8, 'Erivaldo Guimarães', NULL, 'erivaldo.g', '$2y$10$tdCqg/CvRjzRkHnJCHPNEO3ATdqLHVRIaHuRDcRRCemY78xSqyyH2', 'Responsavel', 1, NULL, 'Ativo', NULL, '2026-07-07 22:07:32');
+(8, 'Erivaldo Guimarães', NULL, 'erivaldo.g', '$2y$10$tdCqg/CvRjzRkHnJCHPNEO3ATdqLHVRIaHuRDcRRCemY78xSqyyH2', 'Responsavel', 1, NULL, 'Ativo', NULL, '2026-07-07 22:07:32'),
+(9, 'Hernani Mateus', NULL, 'user.1', '$2y$10$SdGYjcNeEUmJjy1taSCsIut1REy6T960B1dpLLOYbhkqgVcwv59/e', '', NULL, 1, 'Ativo', NULL, '2026-07-07 22:47:27'),
+(10, 'Nelson Obama', NULL, 'nelson', '$2y$10$8KN7zkaJnpJHsUyKIAA5neKYOUXMSsYvOB0ryWLfA2HKWrg8GKABi', 'Diretor Geral', 7, NULL, 'Ativo', NULL, '2026-07-07 23:27:53'),
+(11, 'Rui Santos', NULL, 'rui.santos', '$2y$10$gD55I2nDYlqpkHNXSl5AiePhowTFBZbuv0K4uhNTAobl6TtYHsyfC', '', NULL, 3, 'Ativo', NULL, '2026-07-07 23:30:15');
 
 --
 -- Indexes for dumped tables
@@ -323,7 +326,7 @@ ALTER TABLE `tickets`
 -- AUTO_INCREMENT for table `utilizadores`
 --
 ALTER TABLE `utilizadores`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Constraints for dumped tables
